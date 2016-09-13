@@ -1,11 +1,11 @@
 language: python
+
 matrix:
   include:
     - python: 2.7
     - python: 3.5
 
 install:
-    - npm install -g eclint
     - sudo pip install -r requirements.txt
 
 script:
